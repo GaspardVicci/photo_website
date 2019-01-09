@@ -1,32 +1,112 @@
 .App {
   text-align: center;
+	font-family: "New Century"; 
+  background-color: #0e0a0b;
+	height: 100%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.First-title {
+	min-height: 650px;
+	background-image: url('./photos/DSC_1068.JPG');
+	background-repeat: no-repeat;
+	background-size: cover;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+	background-color: rgba(0, 0, 0, 0.3);
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+	justify-content: space-between;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.menu-list {
+	display: flex;
+	justify-content: flex-start;
+	color: white;
+}
+.menu-element {
+	padding: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.menu-element:hover {
+	cursor: pointer;
+	border-bottom: 2px solid white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.Instagram-name {
+	padding: 10px;
+	margin-right: 20px;
+	justify-content: flex-end;
+	font-size: 25px;
+	
+}
+.Instagram-name:hover{
+	cursor: pointer;
+}
+
+.Transit-div {
+	min-height: 50px;
+	background-color: #0e0a0b;
+	justify-content: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.transit-image {
+	background-color: white;
+	height: 2px;
+	width: 500px;
+}
+
+.Travels {
+	margin: 30px;
+	border: 2px solid #2a2835;
+	border-radius: 5px;
+	padding: 30px;
+	background-color: #0e0a0b;
+	justify-content: space-between;
+	display: flex;
+}
+.travel-wrapper {
+	border-radius: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	background-size: cover;
+	height: 400px;
+	width: 250px;
+}
+.travel-container {
+	height: stretch;
+	width: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	background-color: rgba(0,0,0,0.5);
+	padding: 30px;
+}.travel-container:hover{
+	background-color: rgba(0,0,0,0.1);
+	cursor: pointer;
+}
+.travel-country {
+	text-align: right;
+	font-weight: bold;
+	color: white;
+}
+
+.travel-content {
+	color: white;
+	text-align: left;
+}
+.travel-title {
+	font-size: 20px;
+	font-weight: 600;
+}
+.travel-subtitle {
+	font-size: 12px;
+	font-weight: 300;
 }
